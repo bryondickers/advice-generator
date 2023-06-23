@@ -12,7 +12,7 @@ async function getAdvice(){
     let response  = await fetch(url,options);
     let fetchedContent = await response.json();
     
-    console.log(fetchedContent);
+
     displayAdvice(fetchedContent.slip);
 
 }
